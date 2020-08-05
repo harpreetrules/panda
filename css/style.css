@@ -16,7 +16,7 @@ img, video, canvas {max-width: 100%;}
 
 h1 {color:#000000; font-size:33px; font-family: 'Poppins', sans-serif; font-weight: 500; margin:0px ; padding:0px;}
 h1.icon-head {position: relative; text-align: center; padding-top: 45px; padding-bottom: 10px; font-weight: bold;}
-h1.icon-head::before {content: ""; position: absolute; width: 40px; height: 40px; background: url("../images/panda-icon.png") no-repeat; top: 0; left: 48%;}
+h1.icon-head::before {content: ""; position: absolute; width: 40px; height: 40px; background: url("../images/panda-icon.png") no-repeat; top: 0; left: 50%; transform: translateX(-50%);}
 h1.icon-head::after {content: ""; position: absolute; width: 80px; height: 3px; background: #ffa500; margin:auto; bottom: 0; left: 0; right: 0;}
 
 h1.back {font-size:9vw; position: absolute; font-weight: bold; color: #f0f0f0; margin: 0px auto; z-index: -1; width: 100%; top: 4%; text-align: center;}
