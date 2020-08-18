@@ -470,8 +470,8 @@ footer .lower {background: #000000; padding-top: 30px; padding-bottom: 30px; col
 	.banner .row .col-lg-5 {order: 2;}
 	.banner .banner-text {padding-left: 0px; text-align: center;}
 	.banner {border-radius: 0px 0px 25px 25px;}
-	.banner .banner-image {text-align: center; padding-top: 0px; padding-bottom: 40px; height: auto; margin-top: 70px;}
-	.banner .banner-image img {width: 50%; margin: -40px auto 0px}
+	.banner .banner-image {text-align: center; padding-top: 0px; padding-bottom: 30px; height: auto; margin-top: 70px;}
+	.banner .banner-image img {width: 50%; margin: -65px auto 0px}
 	.banner h1 {font-size: 25px;}
 	
 
