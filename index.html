@@ -17,106 +17,51 @@
 
 <body>
 	<header>
-		<div class="container-fluid">
-			<div class="row">
-				<div class="col-lg-3 col-sm-4 logo"><a href="index"><img src="images/logo.png" alt="" /></a>
-				</div>
-				<div class="col-lg-9 col-sm-8 xs-full">
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<nav class="navbar navbar-nav">
-						<div class="container-fluid">
-							<div class="navbar-header">
-								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-   							     <span class="icon-bar"></span>
-   							     <span class="icon-bar"></span>
-   							     <span class="icon-bar"></span>                        
-   							   </button>
-							</div>
-							<div class="collapse navbar-collapse" id="myNavbar">
-								<ul class="nav navbar-nav">
-	<li><a href="index"><i aria-hidden="true" class="fa fa-home"></i>Home</a>
-	</li>
-	<!--<li class="dropdown">
-		<a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
-		<ul class="dropdown-menu">
-			<li style="font-size:18px;"><a href="who-we-are.php">Who we are</a>
-			</li>
-			<li class="divider"></li>
-			<li style="font-size:18px;"><a href="what-we-do.php">What we do</a>
-			</li>
-		</ul>
-	</li>-->
-	<li><a href="#">About</a>
-	</li>
-	<li><a href="#">Services</a>
-	</li>
-	<li><a href="#">Portfolio</a>
-	</li>
-	<li><a href="#">Contact</a>
-	</li>
-</ul>
-							</div>
-						</div>
-					</nav>
+		<nav class="navibar">
+			<div class="inner-width">
+				<a href="/" class="logo"><img src="images/logo.png" alt="" /></a>
+				<button class="menu-toggler">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+			
+				<div class="navibar-menu">
+					<a href="#">Home</a>
+					<a href="#">About</a>
+					<a href="#">Services</a>
+					<a href="#">Portfolio</a>
+					<a href="#">Contact</a>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
 
-	<section id="banner-area">
-		<div class="container-fluid">
-			<div class="row pos-rel">
-				<div id="myCarousel" class="carousel slide" data-ride="carousel">
-					<!-- Indicators -->
-					<ol class="carousel-indicators">
-						<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-						<li data-target="#myCarousel" data-slide-to="1"></li>
-						<li data-target="#myCarousel" data-slide-to="2"></li>
-					</ol>
 
-					<!-- Wrapper for slides -->
-					<div class="carousel-inner" role="listbox">
-						<div class="item active slide1">
-							<div class="row">
-								<div class="col-lg-5 col-sm-6 banner-text">
-									<p><img src="images/panda-icon2.png" alt="">Welcome to Pixels Panda</p>
-									<h1>I'm a UI/UX Designer <br>Based in New Delhi</h1>
-									<button class="black-button top-margin20">Portfolio</button>
-									<button class="white-button top-margin20">Contact</button>
-								</div>
-								<div class="col-lg-7 col-sm-6 banner-image"><img src="images/banner-laptop2.png" alt="">
-								</div>
-							</div>
+	<section id="banner-area">
+		<div class="pos-rel banner">
+
+
+			<div class="item active slide1">
+				<div class="row">
+					<div class="banner-text left-side" style="display: flex; justify-content: center;">
+						<div style="display: flex; flex-direction: column;">
+						<p><!--<img src="images/panda-icon2.png" alt="">-->
+						Welcome to Pixels Panda</p>
+						<h1>I'm a UI/UX Designer <br>Based in New Delhi</h1>
+						<div class="buttons">
+						<button class="black-button top-margin20">Portfolio</button>
+						<button class="yellow-button top-margin20 left-margin10">Contact</button>
 						</div>
-						<div class="item slide2">
-							<div class="row">
-								<div class="col-lg-5 col-sm-6 banner-text">
-									<p><img src="images/panda-icon2.png" alt="">Welcome to Pixels Panda</p>
-									<h1>I'm a UI/UX Designer <br>Based in New Delhi</h1>
-									<button class="black-button top-margin20">Portfolio</button>
-									<button class="white-button top-margin20">Contact</button>
-								</div>
-								<div class="col-lg-7 col-sm-6 banner-image"><img src="images/banner-laptop3.png" alt="">
-								</div>
-							</div>
-						</div>
-						<div class="item slide3">
-							<div class="row">
-								<div class="col-lg-5 col-sm-6 banner-text">
-									<p><img src="images/panda-icon2.png" alt="">Welcome to Pixels Panda</p>
-									<h1>I'm a UI/UX Designer <br>Based in New Delhi</h1>
-									<button class="black-button top-margin20">Portfolio</button>
-									<button class="white-button top-margin20">Contact</button>
-								</div>
-								<div class="col-lg-7 col-sm-6 banner-image"><img src="images/table3.png" alt="">
-								</div>
-							</div>
 						</div>
 					</div>
-
-					<!-- Left and right controls -->
-					<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a> <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a> </div>
+					<div class="banner-image right-side"><img src="images/avatar1.png" alt="">
+					</div>
+				</div>
 			</div>
+
+
+		</div>
 		</div>
 	</section>
 
@@ -161,9 +106,9 @@
 					<div class="col-sm-6 col-xs-6">
 						<div class="icon-box">
 							<div class="img">
-								<i aria-hidden="true" class="fa fa-html5"></i>
+								<i aria-hidden="true" class="fa fa-wordpress"></i>
 							</div>
-							<div class="content"><strong>PSD to HTML</strong><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
+							<div class="content"><strong>Wordpress</strong><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit</div>
 						</div>
 					</div>
 				</div>
@@ -210,7 +155,7 @@
 			<div class="row text-left top-padding20 feature-box-big">
 				<div class="col-md-3 col-xs-6">
 					<div class="feature-box-back">
-						<div class="feature-box"><img src="images/ui-icon.png" alt="">
+						<div class="feature-box"><img src="images/ui-icon.png" alt=""><br>
 							<strong>UI/UX Design</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit laboriosam iusto repel</div>
 						<div class="feature-box-hover">
 							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium, ullam. Lorem ipsum dolor sit amet</p>
@@ -219,15 +164,15 @@
 					</div>
 				</div>
 				<div class="col-md-3 col-xs-6">
-					<div class="feature-box"><img src="images/ui-icon.png" alt="">
+					<div class="feature-box"><img src="images/ui-icon.png" alt=""><br>
 						<strong>UI/UX Design</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit laboriosam iusto repel</div>
 				</div>
 				<div class="col-md-3 col-xs-6">
-					<div class="feature-box"><img src="images/ui-icon.png" alt="">
+					<div class="feature-box"><img src="images/ui-icon.png" alt=""><br>
 						<strong>UI/UX Design</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit laboriosam iusto repel</div>
 				</div>
 				<div class="col-md-3 col-xs-6">
-					<div class="feature-box"><img src="images/ui-icon.png" alt="">
+					<div class="feature-box"><img src="images/ui-icon.png" alt=""><br>
 						<strong>UI/UX Design</strong> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit laboriosam iusto repel</div>
 				</div>
 			</div>
@@ -313,7 +258,7 @@
 		</div>
 	</section>
 
-	<section class="social-media top-bottom-padding100">
+	<section class="social-media top-bottom-padding100" id="social">
 		<h1 class="back">Connect With Us</h1>
 		<div class="container-fluid">
 			<div class="row text-center">
@@ -380,52 +325,23 @@
 				</div>
 			</div>
 		</div>
-		<div class="lower text-center">
+		<div class="lower">
 			<div class="container">&copy; Copyright 2020 Pixels Panda | Privacy Policy</div>
 		</div>
 	</footer>
 
 	<script src="js/jquery.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-	<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
-	<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
-	<script>
-		$( document ).ready( function () {
-			//FANCYBOX
-			//https://github.com/fancyapps/fancyBox
-			$( ".fancybox" ).fancybox( {
-				openEffect: "none",
-				closeEffect: "none"
-			} );
-		} );
-	</script>
-	<script>
-		$( document ).ready( function () {
 
-			$( '#carousel-example-generic' ).carousel( {
-				interval: 5000
-			} )
-			$( '#myCarousel1, #carousel-example-generic' ).carousel();
-
-		} );
-	</script>
 	<script>
 		$( document ).ready( function () {
-			$( "#btn1" ).click( function () {
-				$( "#img1" ).toggle();
-			} );
-		} );
-		$( document ).ready( function () {
-			$( "#btn2" ).click( function () {
-				$( "#img2" ).toggle();
-			} );
-		} );
-		$( document ).ready( function () {
-			$( "#btn3" ).click( function () {
-				$( "#img3" ).toggle();
+			$( '.menu-toggler' ).click( function () {
+				$( this ).toggleClass( "active" );
+				$( ".navibar-menu" ).toggleClass( "active" );
 			} );
 		} );
 	</script>
+
 
 	<script>
 		$( document ).ready( function () {
